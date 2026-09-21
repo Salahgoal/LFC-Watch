@@ -1,0 +1,39 @@
+# ---- Keil MDK 编译产物 ----
+Objects/
+Listings/
+*.o
+*.crf
+*.d
+*.dep
+*.lst
+*.map
+*.htm
+*.bak
+*.bak-*
+*.orig
+*.iex
+*.lnp
+*.sct.bak
+*.axf
+*.hex
+*.bin
+*.elf
+
+# ---- Keil 用户调试配置（工程结构 uvprojx 保留）----
+*.uvguix
+*.uvgui.*
+*.uvoptx
+JLinkLog.txt
+*.jlink
+*.launch
+
+# ---- IDE / OS ----
+.vs/
+*.suo
+*.sdf
+*.opendb
+*.VC.db
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store

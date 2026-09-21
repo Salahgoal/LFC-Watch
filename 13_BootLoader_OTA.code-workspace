@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "name": "BootLoader",
+      "path": "BootLoader"
+    },
+    {
+      "name": "Application",
+      "path": "Application"
+    }
+  ],
+  "settings": {
+    "stm32cube-ide-clangd.enable": false,
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "C_Cpp.autocomplete": "default"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-vscode.cpptools"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "cmake.sourceDirectory": "D:/Study/Qian/32/Ov-Watch Learn/13_BootLoader_OTA/Application/SquareLineLVGL/Export",
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "C_Cpp.autocomplete": "default",
+  "C_Cpp.default.configurationProvider": "",
+  "stm32cube-ide-clangd.enable": false
+}

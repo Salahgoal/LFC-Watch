@@ -1,0 +1,7 @@
+{
+  "cmake.sourceDirectory": "${workspaceFolder}/SquareLineLVGL/Export",
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "C_Cpp.autocomplete": "default",
+  "C_Cpp.default.configurationProvider": "",
+  "stm32cube-ide-clangd.enable": false
+}

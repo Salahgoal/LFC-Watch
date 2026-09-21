@@ -1,0 +1,7 @@
+{
+  "stm32cube-ide-clangd.enable": false,
+  "C_Cpp.autocomplete": "default",
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "C_Cpp.default.configurationProvider": "",
+  "cmake.sourceDirectory": "D:/Study/Qian/32/Ov-Watch Learn/13_BootLoader_OTA/BootLoader/Drivers/CMSIS/NN"
+}

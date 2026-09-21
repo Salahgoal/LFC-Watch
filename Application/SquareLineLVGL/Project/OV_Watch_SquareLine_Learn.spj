@@ -1,0 +1,88 @@
+{
+  "root": {
+    "guid": "GUID90142282-802915S6795220",
+    "children": [
+      {
+        "guid": "GUID22021840-802916S7275220",
+        "isPage": true,
+        "properties": [
+          {
+            "nid": 10,
+            "strtype": "OBJECT/Name",
+            "strval": "HomeScreen",
+            "InheritedType": 10
+          }
+        ],
+        "saved_objtypeKey": "SCREEN"
+      },
+      {
+        "guid": "GUID91985754-802934S6225220",
+        "isPage": true,
+        "properties": [
+          {
+            "nid": 10,
+            "strtype": "OBJECT/Name",
+            "strval": "SettingsScreen",
+            "InheritedType": 10
+          }
+        ],
+        "saved_objtypeKey": "SCREEN"
+      }
+    ],
+    "properties": [
+      {
+        "nid": 1000205,
+        "strtype": "STARTEVENTS/Name",
+        "strval": "___initial_actions0",
+        "InheritedType": 10
+      }
+    ],
+    "saved_objtypeKey": "STARTEVENTS"
+  },
+  "animations": [],
+  "selected_theme": "Default",
+  "selected_screen": "GUID22021840-802916S7275220",
+  "info": {
+    "name": "OV_Watch_SquareLine_Learn.spj",
+    "depth": 1,
+    "width": 240,
+    "height": 280,
+    "rotation": 0,
+    "offset_x": 0,
+    "offset_y": 0,
+    "shape": "RECTANGLE",
+    "multilang": "DISABLE",
+    "description": "",
+    "board": "CMake/Eclipse/VScode with SDL for development on PC",
+    "board_version": "v2.3.1",
+    "editor_version": "1.6.1",
+    "image": "",
+    "export_temp_image": false,
+    "force_export_images": false,
+    "flat_export": false,
+    "advanced_alpha": false,
+    "pointfilter": false,
+    "theme_simplified": true,
+    "theme_dark": false,
+    "theme_color1": 5,
+    "theme_color2": 0,
+    "custom_variable_prefix": "uic",
+    "separate_screen_save": true,
+    "hierarchy_state_save": false,
+    "reverse_event_order": false,
+    "backup_cnt": 11,
+    "autosave_cnt": 0,
+    "group_color_cnt": 0,
+    "imagebytearrayprefix": "",
+    "lvgl_version": "9.3",
+    "callfuncsexport": "C_FILE",
+    "imageexport": "SOURCE",
+    "lvgl_include_path": "lvgl.h",
+    "naming": "Name",
+    "naming_force_lowercase": false,
+    "naming_add_subcomponent": false,
+    "nidcnt": 1000262,
+    "BitDepth": 16,
+    "Name": "OV_Watch_SquareLine_Learn"
+  }
+}

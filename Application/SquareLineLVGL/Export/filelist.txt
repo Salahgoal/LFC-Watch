@@ -1,0 +1,12 @@
+screens/ui_HomeScreen.c
+screens/ui_SettingsScreen.c
+screens/ui_MenuScreen.c
+screens/ui_SportScreen.c
+screens/ui_EnvScreen.c
+screens/ui_CompassScreen.c
+ui.c
+components/ui_comp_hook.c
+ui_helpers.c
+ui_events.c
+images/ui_img_heart_icon_png.c
+fonts/ui_font_Font1.c

@@ -1,0 +1,50 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Application - STM32F411 ARMCC5",
+      "compilerPath": "",
+      "intelliSenseMode": "windows-clang-arm",
+      "includePath": [
+        "D:/studaysoftware/Keil5MDK/ARM/ARMCC/include",
+        "${workspaceFolder}/Core/Inc",
+        "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc",
+        "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+        "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/include",
+        "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2",
+        "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F",
+        "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+        "${workspaceFolder}/Drivers/CMSIS/Include",
+        "${workspaceFolder}/Middlewares/Third_Party/LVGL/GUI",
+        "${workspaceFolder}/Middlewares/Third_Party/LVGL/GUI/lvgl",
+        "${workspaceFolder}/Middlewares/Third_Party/LVGL/GUI/lvgl/src",
+        "${workspaceFolder}/Middlewares/Third_Party/LVGL/GUI/porting",
+        "${workspaceFolder}/SquareLineLVGL/Export"
+      ],
+      "defines": [
+        "USE_HAL_DRIVER",
+        "STM32F411xE",
+        "LV_CONF_INCLUDE_SIMPLE",
+        "USER_VECT_TAB_ADDRESS",
+        "VECT_TAB_OFFSET=0x0000C000U",
+        "__CC_ARM",
+        "__ARMCC_VERSION=5060528",
+        "__arm__",
+        "__ARM_ARCH_7EM__",
+        "__TARGET_ARCH_THUMB=4",
+        "__TARGET_FPU_VFP=1"
+      ],
+      "cStandard": "c99",
+      "cppStandard": "c++11",
+      "browse": {
+        "path": [
+          "${workspaceFolder}/Core",
+          "${workspaceFolder}/Drivers",
+          "${workspaceFolder}/Middlewares",
+          "${workspaceFolder}/SquareLineLVGL/Export"
+        ],
+        "limitSymbolsToIncludedHeaders": false
+      }
+    }
+  ]
+}

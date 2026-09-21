@@ -1,0 +1,99 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "STM32: Build (Keil ARMCC5)",
+      "type": "shell",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\.vscode\\keil-build.ps1"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": {
+        "owner": "keil-armcc",
+        "fileLocation": [
+          "relative",
+          "${workspaceFolder}\\MDK-ARM"
+        ],
+        "pattern": {
+          "regexp": "^(.*)\\((\\d+)\\):\\s+(error|warning):\\s+(.*)$",
+          "file": 1,
+          "line": 2,
+          "severity": 3,
+          "message": 4
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    },
+    {
+      "label": "STM32: Rebuild (Keil ARMCC5)",
+      "type": "shell",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\.vscode\\keil-build.ps1",
+        "-Rebuild"
+      ],
+      "problemMatcher": {
+        "owner": "keil-armcc",
+        "fileLocation": [
+          "relative",
+          "${workspaceFolder}\\MDK-ARM"
+        ],
+        "pattern": {
+          "regexp": "^(.*)\\((\\d+)\\):\\s+(error|warning):\\s+(.*)$",
+          "file": 1,
+          "line": 2,
+          "severity": 3,
+          "message": 4
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    },
+    {
+      "label": "STM32: Flash (ST-Link)",
+      "type": "shell",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\.vscode\\stlink-flash.ps1"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    },
+    {
+      "label": "STM32: Build + Flash",
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "STM32: Build (Keil ARMCC5)",
+        "STM32: Flash (ST-Link)"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
